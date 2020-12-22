@@ -2,7 +2,7 @@ language: swift
 os: osx
 branches:
   only:
-  - master
+  - main
 env:
   global:
   - LANG=en_US.UTF-8
