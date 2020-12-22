@@ -16,6 +16,13 @@
 		D899BEDA2591DB2B004390B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D899BED82591DB2B004390B1 /* Main.storyboard */; };
 		D899BEDC2591DB2D004390B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D899BEDB2591DB2D004390B1 /* Assets.xcassets */; };
 		D899BEDF2591DB2D004390B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D899BEDD2591DB2D004390B1 /* LaunchScreen.storyboard */; };
+		D8F0C4272591E67A005088E5 /* UserAgency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0C4262591E67A005088E5 /* UserAgency.swift */; };
+		D8F0C42C2591EDD0005088E5 /* UserAgency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D899BEB02591DA4C004390B1 /* UserAgency.framework */; };
+		D8F0C42D2591EDD0005088E5 /* UserAgency.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D899BEB02591DA4C004390B1 /* UserAgency.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D8F0C4382591F0E7005088E5 /* UserDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0C4372591F0E7005088E5 /* UserDevice.swift */; };
+		D8F0C43C2591F12D005088E5 /* UserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0C43B2591F12D005088E5 /* UserApp.swift */; };
+		D8F0C4402591F1FB005088E5 /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0C43F2591F1FB005088E5 /* iPhone.swift */; };
+		D8F0C4442591F5FC005088E5 /* Safari.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0C4432591F5FC005088E5 /* Safari.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +33,28 @@
 			remoteGlobalIDString = D899BEAF2591DA4C004390B1;
 			remoteInfo = UserAgency;
 		};
+		D8F0C42E2591EDD0005088E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D899BEA72591DA4C004390B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D899BEAF2591DA4C004390B1;
+			remoteInfo = UserAgency;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D8F0C4302591EDD0005088E5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D8F0C42D2591EDD0005088E5 /* UserAgency.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D899BEB02591DA4C004390B1 /* UserAgency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserAgency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +71,11 @@
 		D899BEDB2591DB2D004390B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D899BEDE2591DB2D004390B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D899BEE02591DB2D004390B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F0C4262591E67A005088E5 /* UserAgency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgency.swift; sourceTree = "<group>"; };
+		D8F0C4372591F0E7005088E5 /* UserDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDevice.swift; sourceTree = "<group>"; };
+		D8F0C43B2591F12D005088E5 /* UserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApp.swift; sourceTree = "<group>"; };
+		D8F0C43F2591F1FB005088E5 /* iPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
+		D8F0C4432591F5FC005088E5 /* Safari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F0C42C2591EDD0005088E5 /* UserAgency.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +112,7 @@
 				D899BEBD2591DA4C004390B1 /* UserAgencyTests */,
 				D899BED12591DB2B004390B1 /* UserAgencyExample */,
 				D899BEB12591DA4C004390B1 /* Products */,
+				D8F0C42B2591EDD0005088E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +131,9 @@
 			children = (
 				D899BEB32591DA4C004390B1 /* UserAgency.h */,
 				D899BEB42591DA4C004390B1 /* Info.plist */,
+				D8F0C4262591E67A005088E5 /* UserAgency.swift */,
+				D8F0C4332591EE67005088E5 /* UserDevice */,
+				D8F0C4342591EE74005088E5 /* UserApp */,
 			);
 			path = UserAgency;
 			sourceTree = "<group>";
@@ -121,6 +159,31 @@
 				D899BEE02591DB2D004390B1 /* Info.plist */,
 			);
 			path = UserAgencyExample;
+			sourceTree = "<group>";
+		};
+		D8F0C42B2591EDD0005088E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8F0C4332591EE67005088E5 /* UserDevice */ = {
+			isa = PBXGroup;
+			children = (
+				D8F0C4372591F0E7005088E5 /* UserDevice.swift */,
+				D8F0C43F2591F1FB005088E5 /* iPhone.swift */,
+			);
+			path = UserDevice;
+			sourceTree = "<group>";
+		};
+		D8F0C4342591EE74005088E5 /* UserApp */ = {
+			isa = PBXGroup;
+			children = (
+				D8F0C43B2591F12D005088E5 /* UserApp.swift */,
+				D8F0C4432591F5FC005088E5 /* Safari.swift */,
+			);
+			path = UserApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,10 +243,12 @@
 				D899BECC2591DB2B004390B1 /* Sources */,
 				D899BECD2591DB2B004390B1 /* Frameworks */,
 				D899BECE2591DB2B004390B1 /* Resources */,
+				D8F0C4302591EDD0005088E5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D8F0C42F2591EDD0005088E5 /* PBXTargetDependency */,
 			);
 			name = UserAgencyExample;
 			productName = UserAgencyExample;
@@ -201,6 +266,7 @@
 				TargetAttributes = {
 					D899BEAF2591DA4C004390B1 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					D899BEB82591DA4C004390B1 = {
 						CreatedOnToolsVersion = 12.3;
@@ -262,6 +328,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F0C43C2591F12D005088E5 /* UserApp.swift in Sources */,
+				D8F0C4382591F0E7005088E5 /* UserDevice.swift in Sources */,
+				D8F0C4402591F1FB005088E5 /* iPhone.swift in Sources */,
+				D8F0C4272591E67A005088E5 /* UserAgency.swift in Sources */,
+				D8F0C4442591F5FC005088E5 /* Safari.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +361,11 @@
 			isa = PBXTargetDependency;
 			target = D899BEAF2591DA4C004390B1 /* UserAgency */;
 			targetProxy = D899BEBB2591DA4C004390B1 /* PBXContainerItemProxy */;
+		};
+		D8F0C42F2591EDD0005088E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D899BEAF2591DA4C004390B1 /* UserAgency */;
+			targetProxy = D8F0C42E2591EDD0005088E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -438,6 +514,7 @@
 		D899BEC52591DA4C004390B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = YH9352NQ3R;
@@ -454,6 +531,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.terryhuanghd.UserAgency;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +540,7 @@
 		D899BEC62591DA4C004390B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = YH9352NQ3R;
@@ -486,6 +565,7 @@
 		D899BEC82591DA4C004390B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YH9352NQ3R;
 				INFOPLIST_FILE = UserAgencyTests/Info.plist;
@@ -504,6 +584,7 @@
 		D899BEC92591DA4C004390B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YH9352NQ3R;
 				INFOPLIST_FILE = UserAgencyTests/Info.plist;
