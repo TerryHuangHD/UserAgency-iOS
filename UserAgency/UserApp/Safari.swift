@@ -26,6 +26,10 @@ public class Safari: UserApp {
     }
 
     public func getResultPlatform() -> String {
+        if userDevice == nil {
+            return ""
+        }
+        
         return String(format: "AppleWebKit/%@ (KHTML, like Gecko) Version/%@ Mobile/%@ Safari/%@",
                       arguments: [layoutEngine,
                                   softwareVersion,

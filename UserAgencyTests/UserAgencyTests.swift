@@ -10,24 +10,22 @@ import XCTest
 
 class UserAgencyTests: XCTestCase {
 
+    var agency: UserAgency?
+
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        agency = UserAgency()
+            .setUserDevice(iPhone())
+            .setUserApp(Safari())
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testBaseSample() throws {
+        XCTAssertTrue(agency!.getString().contains("iPhone OS"))
+        XCTAssertTrue(agency!.getString().contains("like Mac OS X"))
+        XCTAssertTrue(agency!.getString().contains("AppleWebKit"))
+        XCTAssertTrue(agency!.getString().contains("Mobile"))
+        XCTAssertTrue(agency!.getString().contains("Safari"))
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
