@@ -13,6 +13,4 @@ jobs:
     script: xcodebuild -scheme UserAgency SWIFT_VERSION=5.3 clean build
     osx_image: xcode12
     name: "Swift 5.3"
-
-  - stage: "Codecov"
     after_success: bash <(curl -s https://codecov.io/bash)
