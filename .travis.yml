@@ -1,7 +1,18 @@
-language:
-  - swift
-osx_image: xcode12.2
-script:
-  - xcodebuild -scheme UserAgency -sdk iphonesimulator -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
+language: swift
+os: osx
+branches:
+  only:
+  - master
+env:
+  global:
+  - LANG=en_US.UTF-8
+  - LC_ALL=en_US.UTF-8
+jobs:
+  include:
+  - stage: "Builds"
+    script: xcodebuild -scheme UserAgency SWIFT_VERSION=5.3 clean build
+    osx_image: xcode12
+    name: "Swift 5.3"
+
+  - stage: "Codecov"
+    after_success: bash <(curl -s https://codecov.io/bash)
