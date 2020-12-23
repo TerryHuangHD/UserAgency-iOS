@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UserAgency"
-  spec.version      = "0.1"
+  spec.version      = "0.2"
   spec.summary      = "User-Agent generator library written in swift"
 
   # This description is used to generate tags and improve search results.
@@ -67,7 +67,8 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
-  spec.ios.deployment_target = "14.3"
+  spec.ios.deployment_target = "9.0"
+  spec.osx.deployment_target = "10.15"
   spec.swift_version = "5.3"
 
   #  When using multiple platforms
