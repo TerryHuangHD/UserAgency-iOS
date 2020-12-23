@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UserAgency"
-  spec.version      = "0.3"
+  spec.version      = "0.4"
   spec.summary      = "User-Agent generator library written in swift"
 
   # This description is used to generate tags and improve search results.
