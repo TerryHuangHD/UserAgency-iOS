@@ -18,6 +18,21 @@ class ViewController: UIViewController {
                 .setUserDevice(iPhone())
                 .setUserApp(Safari())
                 .getString())
+        
+        print(UserAgency()
+                .setUserDevice(Mac())
+                .setUserApp(Firefox())
+                .getString())
+        
+        print(UserAgency()
+                .setUserDevice(PC())
+                .setUserApp(Chrome())
+                .getString())
+        
+        print(UserAgency()
+                .setUserDevice(AndroidPhone())
+                .setUserApp(Chrome())
+                .getString())
     }
 }
 

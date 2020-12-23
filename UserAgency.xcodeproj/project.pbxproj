@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8250FE5259335ED00B88649 /* Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8250FE4259335ED00B88649 /* Mac.swift */; };
+		D8250FE9259335FC00B88649 /* PC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8250FE8259335FC00B88649 /* PC.swift */; };
+		D8250FED2593360B00B88649 /* AndroidPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8250FEC2593360B00B88649 /* AndroidPhone.swift */; };
+		D8250FF1259336C600B88649 /* Chrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8250FF0259336C600B88649 /* Chrome.swift */; };
+		D8250FF5259336DD00B88649 /* Firefox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8250FF4259336DD00B88649 /* Firefox.swift */; };
 		D899BEBA2591DA4C004390B1 /* UserAgency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D899BEB02591DA4C004390B1 /* UserAgency.framework */; };
-		D899BEBF2591DA4C004390B1 /* UserAgencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899BEBE2591DA4C004390B1 /* UserAgencyTests.swift */; };
+		D899BEBF2591DA4C004390B1 /* UserAgencyBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899BEBE2591DA4C004390B1 /* UserAgencyBaseTests.swift */; };
 		D899BEC12591DA4C004390B1 /* UserAgency.h in Headers */ = {isa = PBXBuildFile; fileRef = D899BEB32591DA4C004390B1 /* UserAgency.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D899BED32591DB2B004390B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899BED22591DB2B004390B1 /* AppDelegate.swift */; };
 		D899BED52591DB2B004390B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899BED42591DB2B004390B1 /* SceneDelegate.swift */; };
@@ -16,6 +21,7 @@
 		D899BEDA2591DB2B004390B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D899BED82591DB2B004390B1 /* Main.storyboard */; };
 		D899BEDC2591DB2D004390B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D899BEDB2591DB2D004390B1 /* Assets.xcassets */; };
 		D899BEDF2591DB2D004390B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D899BEDD2591DB2D004390B1 /* LaunchScreen.storyboard */; };
+		D899CA99259341A40033DC9F /* UserAgencySafariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899CA98259341A40033DC9F /* UserAgencySafariTests.swift */; };
 		D8F0C4272591E67A005088E5 /* UserAgency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0C4262591E67A005088E5 /* UserAgency.swift */; };
 		D8F0C42C2591EDD0005088E5 /* UserAgency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D899BEB02591DA4C004390B1 /* UserAgency.framework */; };
 		D8F0C42D2591EDD0005088E5 /* UserAgency.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D899BEB02591DA4C004390B1 /* UserAgency.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -57,11 +63,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D8250FE4259335ED00B88649 /* Mac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac.swift; sourceTree = "<group>"; };
+		D8250FE8259335FC00B88649 /* PC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC.swift; sourceTree = "<group>"; };
+		D8250FEC2593360B00B88649 /* AndroidPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidPhone.swift; sourceTree = "<group>"; };
+		D8250FF0259336C600B88649 /* Chrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chrome.swift; sourceTree = "<group>"; };
+		D8250FF4259336DD00B88649 /* Firefox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firefox.swift; sourceTree = "<group>"; };
 		D899BEB02591DA4C004390B1 /* UserAgency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserAgency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D899BEB32591DA4C004390B1 /* UserAgency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserAgency.h; sourceTree = "<group>"; };
 		D899BEB42591DA4C004390B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D899BEB92591DA4C004390B1 /* UserAgencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserAgencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D899BEBE2591DA4C004390B1 /* UserAgencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgencyTests.swift; sourceTree = "<group>"; };
+		D899BEBE2591DA4C004390B1 /* UserAgencyBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgencyBaseTests.swift; sourceTree = "<group>"; };
 		D899BEC02591DA4C004390B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D899BED02591DB2B004390B1 /* UserAgencyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserAgencyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D899BED22591DB2B004390B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +82,7 @@
 		D899BEDB2591DB2D004390B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D899BEDE2591DB2D004390B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D899BEE02591DB2D004390B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D899CA98259341A40033DC9F /* UserAgencySafariTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgencySafariTests.swift; sourceTree = "<group>"; };
 		D8F0C4262591E67A005088E5 /* UserAgency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgency.swift; sourceTree = "<group>"; };
 		D8F0C4372591F0E7005088E5 /* UserDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDevice.swift; sourceTree = "<group>"; };
 		D8F0C43B2591F12D005088E5 /* UserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApp.swift; sourceTree = "<group>"; };
@@ -141,7 +153,8 @@
 		D899BEBD2591DA4C004390B1 /* UserAgencyTests */ = {
 			isa = PBXGroup;
 			children = (
-				D899BEBE2591DA4C004390B1 /* UserAgencyTests.swift */,
+				D899BEBE2591DA4C004390B1 /* UserAgencyBaseTests.swift */,
+				D899CA98259341A40033DC9F /* UserAgencySafariTests.swift */,
 				D899BEC02591DA4C004390B1 /* Info.plist */,
 			);
 			path = UserAgencyTests;
@@ -172,7 +185,10 @@
 			isa = PBXGroup;
 			children = (
 				D8F0C4372591F0E7005088E5 /* UserDevice.swift */,
+				D8250FEC2593360B00B88649 /* AndroidPhone.swift */,
 				D8F0C43F2591F1FB005088E5 /* iPhone.swift */,
+				D8250FE4259335ED00B88649 /* Mac.swift */,
+				D8250FE8259335FC00B88649 /* PC.swift */,
 			);
 			path = UserDevice;
 			sourceTree = "<group>";
@@ -181,6 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				D8F0C43B2591F12D005088E5 /* UserApp.swift */,
+				D8250FF0259336C600B88649 /* Chrome.swift */,
+				D8250FF4259336DD00B88649 /* Firefox.swift */,
 				D8F0C4432591F5FC005088E5 /* Safari.swift */,
 			);
 			path = UserApp;
@@ -328,9 +346,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8250FED2593360B00B88649 /* AndroidPhone.swift in Sources */,
 				D8F0C43C2591F12D005088E5 /* UserApp.swift in Sources */,
+				D8250FE5259335ED00B88649 /* Mac.swift in Sources */,
+				D8250FF5259336DD00B88649 /* Firefox.swift in Sources */,
+				D8250FE9259335FC00B88649 /* PC.swift in Sources */,
 				D8F0C4382591F0E7005088E5 /* UserDevice.swift in Sources */,
 				D8F0C4402591F1FB005088E5 /* iPhone.swift in Sources */,
+				D8250FF1259336C600B88649 /* Chrome.swift in Sources */,
 				D8F0C4272591E67A005088E5 /* UserAgency.swift in Sources */,
 				D8F0C4442591F5FC005088E5 /* Safari.swift in Sources */,
 			);
@@ -340,7 +363,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D899BEBF2591DA4C004390B1 /* UserAgencyTests.swift in Sources */,
+				D899BEBF2591DA4C004390B1 /* UserAgencyBaseTests.swift in Sources */,
+				D899CA99259341A40033DC9F /* UserAgencySafariTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

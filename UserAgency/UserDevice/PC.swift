@@ -1,25 +1,27 @@
 //
-//  iPhone.swift
+//  PC.swift
 //  UserAgency
 //
-//  Created by Terry Huang on 2020/12/22.
+//  Created by Terry Huang on 2020/12/23.
 //
 
 import Foundation
 
-public class iPhone: UserDevice {
+public class PC: UserDevice {
     weak var userApp: UserApp?
 
-    var osVersion = "14_3"
+    var osVersion = "10.0"
 
     /*
-    // Safari / Chrome / FireFox / Edge
-    iPhone; CPU iPhone OS {$osVersion} like Mac OS X
+    // Chrome / FireFox / Edge / IE
+    Windows NT {$osVersion}; Win64; x64
+    Windows NT {$osVersion}; WOW64
+    Windows NT {$osVersion}
     */
     
     public init() {
     }
-    
+
     public func setUserApp(_ app: UserApp?) {
         userApp = app
     }
@@ -29,7 +31,7 @@ public class iPhone: UserDevice {
             return ""
         }
 
-        return String(format: "iPhone; CPU iPhone OS %@ like Mac OS X",
+        return String(format: "Windows NT %@; Win64; x64",
                       arguments: [osVersion])
     }
 }

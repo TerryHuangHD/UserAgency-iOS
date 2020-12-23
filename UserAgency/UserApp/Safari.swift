@@ -14,6 +14,13 @@ public class Safari: UserApp {
     var softwareVersion = "14.0"
     var build = "15E148"
 
+    /*
+    // iPhone / iPad
+    AppleWebKit/{$layoutEngine} (KHTML, like Gecko) Version/{softwareVersion} Mobile/{$build} Safari/{$layoutEngine}
+    // Mac
+    AppleWebKit/{$layoutEngine} (KHTML, like Gecko) Version/{softwareVersion} Safari/{$layoutEngine}
+    */
+
     public init() {
     }
 
@@ -29,7 +36,14 @@ public class Safari: UserApp {
         if userDevice == nil {
             return ""
         }
-        
+
+        if userDevice is Mac {
+            return String(format: "AppleWebKit/%@ (KHTML, like Gecko) Version/%@ Safari/%@",
+                          arguments: [layoutEngine,
+                                      softwareVersion,
+                                      layoutEngine])
+        }
+
         return String(format: "AppleWebKit/%@ (KHTML, like Gecko) Version/%@ Mobile/%@ Safari/%@",
                       arguments: [layoutEngine,
                                   softwareVersion,
