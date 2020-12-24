@@ -19,7 +19,9 @@ class UserAgencyTests: XCTestCase {
         
         allDevice = [
             AndroidPhone(),
+            AndroidPad(),
             iPhone(),
+            iPad(),
             Mac(),
             PC()
         ]

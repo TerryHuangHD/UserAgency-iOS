@@ -41,6 +41,7 @@ public class Firefox: UserApp {
         }
 
         if userDevice is AndroidPhone
+            || userDevice is AndroidPad
             || userDevice is Mac
             || userDevice is PC {
             return String(format: "; rv:%@",
@@ -55,7 +56,8 @@ public class Firefox: UserApp {
             return ""
         }
 
-        if userDevice is iPhone {
+        if userDevice is iPhone
+            || userDevice is iPad {
             return String(format: "AppleWebKit/%@ (KHTML, like Gecko) FxiOS/%@ Mobile/%@ Safari/%@",
                           arguments: [layoutEngine_iOS,
                                       softwareVersion_iOS,

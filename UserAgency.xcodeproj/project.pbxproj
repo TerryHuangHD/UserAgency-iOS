@@ -12,6 +12,8 @@
 		D8250FED2593360B00B88649 /* AndroidPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8250FEC2593360B00B88649 /* AndroidPhone.swift */; };
 		D8250FF1259336C600B88649 /* Chrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8250FF0259336C600B88649 /* Chrome.swift */; };
 		D8250FF5259336DD00B88649 /* Firefox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8250FF4259336DD00B88649 /* Firefox.swift */; };
+		D85BFE512594912C0051F637 /* AndroidPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85BFE502594912C0051F637 /* AndroidPad.swift */; };
+		D85BFE55259491680051F637 /* iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85BFE54259491680051F637 /* iPad.swift */; };
 		D899BEBA2591DA4C004390B1 /* UserAgency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D899BEB02591DA4C004390B1 /* UserAgency.framework */; };
 		D899BEBF2591DA4C004390B1 /* UserAgencyBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899BEBE2591DA4C004390B1 /* UserAgencyBaseTests.swift */; };
 		D899BEC12591DA4C004390B1 /* UserAgency.h in Headers */ = {isa = PBXBuildFile; fileRef = D899BEB32591DA4C004390B1 /* UserAgency.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -68,6 +70,8 @@
 		D8250FEC2593360B00B88649 /* AndroidPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidPhone.swift; sourceTree = "<group>"; };
 		D8250FF0259336C600B88649 /* Chrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chrome.swift; sourceTree = "<group>"; };
 		D8250FF4259336DD00B88649 /* Firefox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firefox.swift; sourceTree = "<group>"; };
+		D85BFE502594912C0051F637 /* AndroidPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidPad.swift; sourceTree = "<group>"; };
+		D85BFE54259491680051F637 /* iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad.swift; sourceTree = "<group>"; };
 		D899BEB02591DA4C004390B1 /* UserAgency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserAgency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D899BEB32591DA4C004390B1 /* UserAgency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserAgency.h; sourceTree = "<group>"; };
 		D899BEB42591DA4C004390B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -186,7 +190,9 @@
 			children = (
 				D8F0C4372591F0E7005088E5 /* UserDevice.swift */,
 				D8250FEC2593360B00B88649 /* AndroidPhone.swift */,
+				D85BFE502594912C0051F637 /* AndroidPad.swift */,
 				D8F0C43F2591F1FB005088E5 /* iPhone.swift */,
+				D85BFE54259491680051F637 /* iPad.swift */,
 				D8250FE4259335ED00B88649 /* Mac.swift */,
 				D8250FE8259335FC00B88649 /* PC.swift */,
 			);
@@ -348,6 +354,7 @@
 			files = (
 				D8250FED2593360B00B88649 /* AndroidPhone.swift in Sources */,
 				D8F0C43C2591F12D005088E5 /* UserApp.swift in Sources */,
+				D85BFE512594912C0051F637 /* AndroidPad.swift in Sources */,
 				D8250FE5259335ED00B88649 /* Mac.swift in Sources */,
 				D8250FF5259336DD00B88649 /* Firefox.swift in Sources */,
 				D8250FE9259335FC00B88649 /* PC.swift in Sources */,
@@ -356,6 +363,7 @@
 				D8250FF1259336C600B88649 /* Chrome.swift in Sources */,
 				D8F0C4272591E67A005088E5 /* UserAgency.swift in Sources */,
 				D8F0C4442591F5FC005088E5 /* Safari.swift in Sources */,
+				D85BFE55259491680051F637 /* iPad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
