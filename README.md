@@ -6,8 +6,7 @@
 
 UserAgency is an iOS/macOS User-Agent generator library written in swift. Provides story-oriented usage, and comprehensive way to mock real life data.
 
-# Download
-You can download from GitHub's [releases page](https://github.com/TerryHuangHD/UserAgency-Android/releases).
+# Install
 
 ### CocoaPods
 
@@ -17,12 +16,23 @@ Add it in your Podfile
 pod 'UserAgency', '~> 0.4'
 ```
 
+### Download Framework
+
+Download framework file from [releases page](https://github.com/TerryHuangHD/UserAgency-iOS/releases)
+
+* iOS Version (Any iOS Device: arm64, armv7)
+* Mac Version (Any Mac: Apple Silicon, Intel)
+
 # Usage
 
 * iPhone & Safari:
 
 ```swift
-  UserAgency()
+import UserAgency
+```
+
+```swift
+UserAgency()
     .setUserDevice(iPhone())
     .setUserApp(Safari())
     .getString()
