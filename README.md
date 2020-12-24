@@ -40,14 +40,14 @@ UserAgency()
 ```
 
 # Support
-Device \ App  | Chrome | Firefox | Safari
------ |  ----- | ----- | -----
-AndroidPhone | ✅ | ✅ | ❌
-AndroidPad | ✅ | ✅ | ❌
-iPhone | ✅ | ✅ | ✅
-iPad | ✅ | ✅ | ✅
-Mac | ✅ | ✅ | ✅
-PC |  ✅ | ✅ | ❌
+Device | OS | Chrome | Firefox | Safari
+----- |  ----- | ----- | ----- | -----
+AndroidPhone | Android | ✅ | ✅ | ❌
+AndroidPad | Android | ✅ | ✅ | ❌
+iPhone | iOS | ✅ | ✅ | ✅
+iPad | iOS | ✅ | ✅ | ✅
+Mac | macOS | ✅ | ✅ | ✅
+PC | Windows |  ✅ | ✅ | ❌
 
 MIT License
 --------
