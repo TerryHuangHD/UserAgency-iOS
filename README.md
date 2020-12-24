@@ -1,4 +1,5 @@
-# UserAgency-iOS
+![UserAgency: User-Agent generator in Swift](https://raw.githubusercontent.com/TerryHuangHD/UserAgency-iOS/master/UserAgency.png)
+
 [![Build Status](https://travis-ci.com/TerryHuangHD/UserAgency-iOS.svg?branch=main)](https://travis-ci.com/TerryHuangHD/UserAgency-iOS)
 [![Cocoapos](https://cocoapod-badges.herokuapp.com/v/UserAgency/badge.png)](https://cocoapods.org/pods/UserAgency)
 [![Cocoapos](https://cocoapod-badges.herokuapp.com/p/UserAgency/badge.png)](https://cocoapods.org/pods/UserAgency)
