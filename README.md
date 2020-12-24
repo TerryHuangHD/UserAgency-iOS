@@ -42,8 +42,10 @@ UserAgency()
 # Support
 Device \ App  | Chrome | Firefox | Safari
 ----- |  ----- | ----- | -----
-Android Phone | ✅ | ✅ | ❌
+AndroidPhone | ✅ | ✅ | ❌
+AndroidPad | ✅ | ✅ | ❌
 iPhone | ✅ | ✅ | ✅
+iPad | ✅ | ✅ | ✅
 Mac | ✅ | ✅ | ✅
 PC |  ✅ | ✅ | ❌
 
