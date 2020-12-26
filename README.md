@@ -14,7 +14,7 @@ UserAgency is an iOS/macOS User-Agent generator library written in swift. Provid
 Add it in your Podfile
 
 ```gradle
-pod 'UserAgency', '~> 0.4'
+pod 'UserAgency', '~> 0.5'
 ```
 
 ### Download Framework
