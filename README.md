@@ -34,14 +34,14 @@ import UserAgency
 
 ```swift
 UserAgency()
-    .setUserDevice(iPhone())
-    .setUserApp(Safari())
+    .setDevice(iPhone())
+    .setApp(Safari())
     .getString()
 ```
 
 # Support
 Device | OS | Chrome | Safari | Firefox | Edge | IE
------ |  ----- | ----- | ----- | -----
+----- |  ----- | ----- | ----- | ----- | ----- | -----
 AndroidPhone | Android | ✅ | ❌ | ✅ | ✅ | ❌
 AndroidPad | Android | ✅ | ❌ | ✅ | ✅ | ❌
 iPhone | iOS | ✅ | ✅ | ✅ | ✅ | ❌
