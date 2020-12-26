@@ -23,7 +23,7 @@ class UserAgencyTests: XCTestCase {
             iPhone(),
             iPad(),
             Mac(),
-            PC()
+            WindowsPC()
         ]
         
         allApp = [

@@ -23,7 +23,7 @@ public class Firefox: UserApp {
     // Android Phone / Tablet
     ; rv:{$softwareVersion}
     Gecko/{$softwareVersion} Firefox/{$softwareVersion}
-    // Mac / PC
+    // Mac / WindowsPC
     ; rv:{$softwareVersion}
     Gecko/{$geckoVersion_PC_Mac} Firefox/{$softwareVersion}
     */
@@ -43,7 +43,7 @@ public class Firefox: UserApp {
         if userDevice is AndroidPhone
             || userDevice is AndroidPad
             || userDevice is Mac
-            || userDevice is PC {
+            || userDevice is WindowsPC {
             return String(format: "; rv:%@",
                           arguments: [softwareVersion])
         }
@@ -66,7 +66,7 @@ public class Firefox: UserApp {
         }
 
         if userDevice is Mac
-            || userDevice is PC {
+            || userDevice is WindowsPC {
             return String(format: "Gecko/%@ Firefox/%@",
                           arguments: [geckoVersion_PC_Mac,
                                       softwareVersion])

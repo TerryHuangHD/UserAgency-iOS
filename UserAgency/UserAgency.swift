@@ -15,12 +15,12 @@ public class UserAgency {
     public init() {
     }
 
-    public func setUserApp(_ app: UserApp?) -> UserAgency {
+    public func setApp(_ app: UserApp?) -> UserAgency {
         userApp = app
         return self
     }
 
-    public func setUserDevice(_ device: UserDevice?) -> UserAgency {
+    public func setDevice(_ device: UserDevice?) -> UserAgency {
         userDevice = device
         return self
     }

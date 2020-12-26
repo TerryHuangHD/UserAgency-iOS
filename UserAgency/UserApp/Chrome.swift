@@ -18,11 +18,11 @@ public class Chrome: UserApp {
 
     /*
     // iPhone / iPad
-    AppleWebKit/{$layoutEngine_iOS} (KHTML, like Gecko) CriOS/{softwareVersion} Mobile/{$build_iOS} Safari/{$layoutEngine_iOS}
+    AppleWebKit/{$layoutEngine_iOS} (KHTML, like Gecko) CriOS/{$softwareVersion} Mobile/{$build_iOS} Safari/{$layoutEngine_iOS}
     // Android Phone / Tablet
-    AppleWebKit/{$layoutEngine} (KHTML, like Gecko) Chrome/{softwareVersion} Mobile Safari/{$layoutEngine}
-    // Mac / PC
-    AppleWebKit/{$layoutEngine} (KHTML, like Gecko) Chrome/{softwareVersion} Safari/{$layoutEngine}
+    AppleWebKit/{$layoutEngine} (KHTML, like Gecko) Chrome/{$softwareVersion} Mobile Safari/{$layoutEngine}
+    // Mac / WindowsPC
+    AppleWebKit/{$layoutEngine} (KHTML, like Gecko) Chrome/{$softwareVersion} Safari/{$layoutEngine}
     */
 
     public init() {
@@ -51,7 +51,7 @@ public class Chrome: UserApp {
         }
 
         if userDevice is Mac
-            || userDevice is PC {
+            || userDevice is WindowsPC {
             return String(format: "AppleWebKit/%@ (KHTML, like Gecko) Chrome/%@ Safari/%@",
                           arguments: [layoutEngine,
                                       softwareVersion,

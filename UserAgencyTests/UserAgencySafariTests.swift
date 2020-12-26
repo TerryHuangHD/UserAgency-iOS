@@ -26,7 +26,7 @@ class UserAgencySafariTests: XCTestCase {
     }
 
     func test_iPhone() throws {
-        agent?.setUserDevice(iphone).setUserApp(safari)
+        agent?.setUserDevice(iphone).setApp(safari)
         
         XCTAssertTrue(agent!.getString().contains("iPhone OS"))
         XCTAssertTrue(agent!.getString().contains("like Mac OS X"))
@@ -36,7 +36,7 @@ class UserAgencySafariTests: XCTestCase {
     }
 
     func test_Mac() throws {
-        agent?.setUserDevice(mac).setUserApp(safari)
+        agent?.setUserDevice(mac).setApp(safari)
         
         XCTAssertTrue(agent!.getString().contains("Macintosh"))
         XCTAssertTrue(agent!.getString().contains("Mac OS X"))

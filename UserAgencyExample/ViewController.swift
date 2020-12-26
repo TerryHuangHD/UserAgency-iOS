@@ -15,23 +15,23 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         print(UserAgency()
-                .setUserDevice(iPhone())
-                .setUserApp(Safari())
+                .setDevice(iPhone())
+                .setApp(Safari())
                 .getString())
         
         print(UserAgency()
-                .setUserDevice(Mac())
-                .setUserApp(Firefox())
+                .setDevice(Mac())
+                .setApp(Firefox())
                 .getString())
         
         print(UserAgency()
-                .setUserDevice(PC())
-                .setUserApp(Chrome())
+                .setDevice(WindowsPC())
+                .setApp(Chrome())
                 .getString())
         
         print(UserAgency()
-                .setUserDevice(AndroidPhone())
-                .setUserApp(Chrome())
+                .setDevice(AndroidPhone())
+                .setApp(Chrome())
                 .getString())
     }
 }

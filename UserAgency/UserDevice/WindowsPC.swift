@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class PC: UserDevice {
+public class WindowsPC: UserDevice {
     weak var userApp: UserApp?
 
     var osVersion = "10.0"
