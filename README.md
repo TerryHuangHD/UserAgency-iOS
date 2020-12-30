@@ -1,6 +1,7 @@
 ![UserAgency: User-Agent generator in Swift](https://raw.githubusercontent.com/TerryHuangHD/UserAgency-iOS/master/UserAgency.png)
 
 [![Build Status](https://travis-ci.com/TerryHuangHD/UserAgency-iOS.svg?branch=main)](https://travis-ci.com/TerryHuangHD/UserAgency-iOS)
+[![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg)](https://swift.org/package-manager/)
 [![Cocoapos](https://cocoapod-badges.herokuapp.com/v/UserAgency/badge.png)](https://cocoapods.org/pods/UserAgency)
 [![Cocoapos](https://cocoapod-badges.herokuapp.com/p/UserAgency/badge.png)](https://cocoapods.org/pods/UserAgency)
 [![GitHub license](https://img.shields.io/github/license/TerryHuangHD/UserAgency-iOS)](https://github.com/TerryHuangHD/UserAgency-iOS/blob/main/LICENSE)
@@ -17,12 +18,27 @@ Add it in your Podfile
 pod 'UserAgency', '~> 0.5'
 ```
 
+### Swift Package Manager
+
+```SPM
+let package = Package(
+    dependencies: [
+        .package(url: "https://github.com/TerryHuangHD/UserAgency-iOS.git", from: "0.5")
+    ],
+)
+```
+
 ### Download Framework
 
 Download framework file from [releases page](https://github.com/TerryHuangHD/UserAgency-iOS/releases)
 
 * iOS Version (Any iOS Device: arm64, armv7)
 * Mac Version (Any Mac: Apple Silicon, Intel)
+
+# Requirements
+
+* iOS: 9
+* macOS: 10.15
 
 # Usage
 
