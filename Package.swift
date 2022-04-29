@@ -10,8 +10,8 @@ let package = Package(
         .library(name: "UserAgency", targets: ["UserAgency"])
     ],
     targets: [
-        .target(name: "UserAgency", dependencies: []),
-        .testTarget(name: "UserAgencyTests", dependencies: ["UserAgency"])
+        .target(name: "UserAgency", dependencies: [], path: "UserAgency"),
+        .testTarget(name: "UserAgencyTests", dependencies: ["UserAgency"], path: "UserAgencyTests")
     ],
     swiftLanguageVersions: [.v5]
 )
